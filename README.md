@@ -1,2 +1,2 @@
 # pw-ii-matheus-henrique
-Repositório para as aulas de Web com os professores Allan e João 
+Repositório para as aulas de Web com os professores Allan e João na Etec Camargo Aaranha  
