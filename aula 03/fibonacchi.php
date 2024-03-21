@@ -1,8 +1,9 @@
 <?php
-$i = 0;
-$ii = 1;
-    while ($i + $ii) {
-        if ($i + $ii == 34) break;
-        echo $i."<br>";
-        $i++;
-    }
+
+$fibonacci = array("0", "1", "2", "3", "5", "8", "13", "21", "34");
+
+for ($x=0; $x < count($fibonacci); $x++){
+echo $fibonacci[$x], "<br>";
+}
+$x = 0;
+?>
