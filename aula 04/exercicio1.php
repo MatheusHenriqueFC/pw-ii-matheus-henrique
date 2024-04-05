@@ -3,4 +3,4 @@
         echo "o resultado é: " . $num1 + $num2;
     }
     
-    soma(6, 9);
+    soma(5, 5);

@@ -1,12 +1,12 @@
 <?php
     function Matheus() {
-        acho "Olá Matheus!"
+        echo "Olá Matheus!";
     }
 
     Matheus();
 
     function familyName($fname) {
-        echo "$fname Matheus.<br>"
+        echo "$fname Matheus.<br>";
     }
 
     familyName("eu");
