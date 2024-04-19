@@ -1,13 +1,16 @@
 <?php
-    function soma($num1, $num2) {
-        if ($num1 + $num2 < 0) {
-            echo "o resultado é " . $num1 "+" $num2 "= 0"; 
+    function soma($num1, $num2, $result) {
+        $result = $num1 + $num2;
+        if ($result < 0) {
+            echo "o resultado é 0"; 
         }
         else { 
-            echo "o resultado é " . $num1 + $num2; 
+            echo "$num1 + $num2 = $result"; 
         }
     }
 
-    soma(-10, 5);
+?>
 
+<?php 
+    soma($_POST["num1"], $_POST["num2"]);
 ?>

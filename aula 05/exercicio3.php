@@ -11,7 +11,7 @@
             echo "Aluno Reprovado";
         }
 }
-    nota(10, 8);
-    nota(5, 5);
-    nota(3, 2);
+
 ?>
+
+<?php

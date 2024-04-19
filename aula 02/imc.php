@@ -7,8 +7,8 @@
     <title>Exercício IMC</title>
 </head>
 <body>
-    <?php
-        $peso = 60;
+<?php
+        $peso =60;
         $altura = 1.70;
         $imc = $peso / pow($altura, 2);
 
@@ -37,11 +37,10 @@
             case $imc < 40;
             echo "Obesidade grau II";
             break;
-
+            
             default;
             $classificacao = "Obesidade Grau III";
             $obesidade = "Grau III";
-            echo "Obesidade grau III"
             break;
         }
     ?>
