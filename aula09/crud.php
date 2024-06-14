@@ -76,16 +76,12 @@ $nomes = getNomes();
         <td><?php echo $nome['id']; ?></td>
         <td><?php echo $nome['nome']; ?></td>
         <td>
-            <a 
-                href="?acao=editar
-                &id=<?php echo $nome['id']; ?>
-                &nome=<?php echo urlencode($nome['nome']); ?>">
-                Editar
-            </a>
-            <a href="?acao=excluir&id=<?php echo $nome['id']; ?>">
-                Excluir
-            </a>
+            <a href="?acao=editar&id=<?php echo $nome['id']; ?>
+            &nome=<?php echo urlencode($nome['nome']); ?>">Editar</a>
+            <a href="?acao=excluir&id=<?php echo $nome['id']; ?>">Excluir</a>
         </td>
     </tr>
+    <?php endforeach; ?>
 </table>
+<?php $db->close(); ?>
 
